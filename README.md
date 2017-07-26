@@ -6,26 +6,31 @@ Algorithm
 1. Prompt input from User 
 
     a) Perimeter of the yard;
-    b) The type of fence wanted (input should be a string W or C); W: for Wooden fencing; C: for Chain-link fencing; 
+
+    b) The type of fence wanted (input should be a string W or C); w represents Wooden fencing; c represents for Chain-link fencing; 
+
     c) How many gates are needed (input should be an int 1 to 3); 1 for one gate, 2 for two gates, 3 for three gates;
 
 2. Get from user
 
     a) Perimeter of the yard;
-    b) The type of fence wanted (input should be a string w or c); w: for Wooden fencing; c: for Chain-link fencing; 
+
+    b) The type of fence wanted (input should be a string w or c);    
        Repeat Prompt and get if not w and not c;
-    c) How many gates are needed (input should be an int 1 to 3); 1 for one gate, 2 for two gates, 3 for three gates;
+
+    c) How many gates are needed (input should be an int 1 to 3);   
        Repeat Prompt and get if not 1, not 2 and not 3; 
 
 2. Calculate the price 
 
-    If choose wooden fencing (option w):
+    If choose wooden fencing (option w):  
     FinalPrice = (Perimeter *  25 + GateCount * 150) * 1.06 + 50; 
 
-    If choose chain-link fencing (option c):
+    If choose chain-link fencing (option c):  
     FinalPrice = (Perimeter * 15 + GateCount * 150) * 1.06 + 50; 
 
 3. Display the FinalPrice 
+
 
 
 Pseudocode
@@ -34,19 +39,20 @@ Pseudocode
 
 2. Get Perimeter from user, save the value to perimeter; 
    
-   Get choice of fencing from user, save the value to option; 
+   Get choice of fencing from user, save the value to option;   
    While the input is not "w" and is not "c", prompt input again, get input and save value to option; 
    
-   Get Number of Gate from user, save the value to GateCount;
+   Get Number of Gate from user, save the value to GateCount;    
    while the input is not 1 && not 2 && not 3, prompt input again, get input and save value to GateCount;
 
-3. If option == "W":
+3. If option == "W":   
    FinalPrice = (Perimeter *  25 + GateCount * 150) * 1.06 + 50; 
 
-   If option == "C":
+   If option == "C":   
    FinalPrice = (Perimeter *  25 + GateCount * 150) * 1.06 + 50; 
 
 4. Print the FianlPrice
+
 
 
 Test Result:
